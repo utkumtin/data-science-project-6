@@ -1,6 +1,7 @@
 # 1. Görev listesine görev ekle ve task listesini geri dön(bu işlem için metotlarda nasıl değer dönülür incelemen gerekebilir.) (return keyword araştır)
 def add_task(task_list: list, task: str) -> list:
-    pass
+    task_list.append(task)
+    return task_list
 
 # 2. Görev listesinde bir görevi sil ve task listesini geri dön(bu işlem için metotlarda nasıl değer dönülür incelemen gerekbilir)
 def remove_task(task_list: list, task: str) -> list:
